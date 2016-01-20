@@ -1,0 +1,38 @@
+body {
+  font: #494949;
+}
+
+h2 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.full {
+    background: url('http://blog.generalassemb.ly/blog/wp-content/uploads/2015/04/SF-campus-student.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.navbar-default {
+    background-color: #83EDD9;
+    border-color: #83EDD9;
+    border-radius: 0px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
